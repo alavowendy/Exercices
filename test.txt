@@ -1,0 +1,445 @@
+Exercice 1
+Algorithme comparaison;
+var
+a ,b:réels;
+Debut
+    Afficher"Veuillez entrer un 1er nombre";
+    Saisir a;
+    
+    Afficher"Veuillez entrer un 2em nombre";
+    Saisir b;
+
+      Si a>b alors : 
+     Afficher " a est le plus grand ";
+      Fin si
+      Si b>a  alors:
+     Afficher " b est le plus grand ";
+      Fin si
+Fin
+
+Exercice 2
+Algorithme Affichage;
+var
+  age,année_nais :réels;
+const
+  ANNEE-ACTU= 2021;
+Debut
+    Afficher"Veuillez entrer votre année de naissance";
+    Saisir annee de naissance ;
+     age<----ANNEE_ACTU- annee_nais;
+      Si age<10 alors : 
+     Afficher " Vous ètes un enfant ";
+      Fin si
+Fin
+
+
+Exercice 3
+Algorithme comparaison;
+var
+a ,b:réels;
+Debut
+    Afficher"Veuillez entrer un 1er nombre";
+    Saisir a;
+    
+    Afficher"Veuillez entrer un 2em nombre";
+    Saisir b;
+
+      Si a>b alors : 
+     Afficher " a est le plus grand ";
+     
+      Sinon
+     Afficher " b est le plus grand ";
+      Fin si
+Fin
+
+
+Exercice 4
+Algorithme Affichage-valeur_absolue;
+var
+x ,y,V:réels;
+Debut
+    Afficher"Veuillez entrer un 1er réel";
+    Saisir x;
+    
+    Afficher"Veuillez entrer un 2em réel";
+    Saisir y;
+
+     V<----x-y
+     Si V<0
+     Afficher "La valeur absolue est -V ";
+     
+     Sinon si V>0
+     Afficher "La valeur absolue est V ";
+     Fin si
+
+Fin
+
+Exercice 5
+Algorithme Excécution;
+var
+couleur:réels;
+Debut
+    Afficher"Veuillez entrer une couleur du feu_tricolore";
+    Saisir couleur;
+    
+    Afficher"Les couleurs du feu_tricolore disponible";
+    Afficher"-Vert";
+             -Rouge"; 
+             -Orange";
+    Saisir couleur;
+       Si couleur="Vert"
+    Afficher "Passer";
+         Sinon 
+            si couleur= "Rouge"
+    Afficher "S'arrèter";
+            Sinon
+                si couleur="Orange"
+    Afficher "Ralentir";
+                 Fin si
+           Fin si
+      Fin si
+       
+Fin
+
+Exercice 6
+Algorithme Resolution;
+var
+a ,b:entiers;
+Debut
+    Afficher"Veuillez entrer un 1er nombre";
+    Saisir a;
+    
+    Afficher"Veuillez entrer un 2em nombre";
+    Saisir b;
+
+      Si a=0 alors : 
+     Afficher " Impossible de resoudre cette équation";
+     
+      Sinon si 
+      x<----b/a
+     Afficher "La solution de l'équation est", -b/a ";
+      Fin si
+Fin
+
+Exercice 7
+Algorithme Comparaison_3_nombres;
+
+var
+a ,b,c:entiers;
+Debut
+    Afficher"Veuillez entrer les trois nombres";
+    Saisir a,b,c;
+
+      Si a>b alors : 
+           Si a>b alors 
+               a est le plus grand;
+                  Sinon
+           c est le plus grand;
+      Fin si
+                     Sinon si 
+                         b>c alors:
+           b est le plus grand;
+                           Sinon
+           c est le plus grand;
+      Fin si
+  Fin si
+Fin
+
+
+Exercice 8
+Algorithme Excécution;
+var
+couleur:réels;
+Debut
+    Afficher"Veuillez entrer une couleur du feu_tricolore";
+    Saisir couleur;
+    
+    Afficher"Les couleurs du feu_tricolore disponibles";
+    Afficher"-Vert";
+             -Rouge"; 
+             -Orange";
+    Saisir couleur;
+       Suivant couleur faire:
+            "Vert"
+       Afficher "Passer";
+             "Rouge"
+       Afficher "S'arrèter";
+             "Orange"
+       Afficher "Ralentir";
+       Fin suivant
+Fin
+
+
+Exercice 9
+Algorithme Comparaison_maximum_minimum;
+
+var
+x ,y,z,egaux 1,egaux 2,max,min,:entiers;
+menu:chaine de caractère;
+Debut
+    Afficher"Veuillez entrer les trois nombres";
+    Saisir x,y,z;
+    Afficher"le menu disponible est";
+    Afficher" -"Somme";
+              -"Moyenne";
+              -"Produit";
+    
+    Saisir menu;
+       Suivant menu faire:
+         
+         "Somme"
+     Afficher " x+y+z ";
+
+         "Produit"
+     Afficher " x*y*z ";
+
+        "Moyenne"
+     Afficher " x+y+z/3 ";           
+        Fin suivant
+       Si >y alors:
+         max<---x
+         min<---y
+       Sinon
+       Fin si
+       Si y>x alors:
+         max<---y
+         min<---x
+       Sinon
+         egaux 1<--x ou y
+       Fin si
+
+       Si max>c alors:
+       Afficher "le maximum est max et z est le minimum";
+       sinon 
+          Si z>max alors:
+
+       Afficher "le maximum est z et max est le minimum";
+          Sinon
+          egaux <---- max,z
+        
+             Si egaux 1 > egaux 2 alors:
+
+       Afficher "le maximum est egaux 1 et egaux 2 est le minimum";
+
+             Sinon 
+                  Si egaux 1 < egaux 2 alors:
+
+       Afficher "le maximum est egaux 2 et egaux 1 est le minimum";
+
+                  Sinon
+        
+       Afficher "les trois sont égaux ";
+                  Fin si
+             Fin si
+       Fin si
+  Fin si
+Fin
+
+
+Exercice 10
+Algorithme Somme;
+var
+i, somme:entiers;
+Debut
+   Tantque i<---1;
+   somme<---0;
+   i<=10 faire:
+   somme<---somme+i;
+
+   Fin tant que
+Fin
+
+
+Exercice 11
+Algorithme Saisir;
+var
+i:entier;
+nom:chaine de caractère;
+Debut
+    Afficher" Veuillez entrer un nom";
+    Saisir nom ;
+
+   Tantque nom <> ZZZZ, i<---i+1;
+   Afficher" Veuillez entrer un nom";
+    Saisir nom ;
+
+   Fin tant que
+Fin
+
+
+
+Exercice 12
+Algorithme Reponse_question;
+var
+i:entier;
+reponse:chaine de caractère;
+Debut
+    Afficher"Aimez vous l'informatique?";
+    Saisir reponse ;
+
+   Tantque  reponse <> "OUI" ET reponse <> "Non";
+   Afficher"Aimez vous l'informatique? ";
+   Saisir reponse ;
+   
+   Fin tant que
+Fin
+
+
+Exercice 13
+Algorithme Reponse_question;
+var
+i:entier;
+reponse:chaine de caractère;
+Debut
+
+Repeter
+    Afficher"Aimez vous l'informatique?";
+    Saisir reponse ;
+
+  Si reponse <> "OUI" et "NON" alors
+    Afficher "Mauvais reponse";
+  Fin si 
+   Jusqu'a  reponse = "OUI" ET reponse = "Non";
+ 
+Fin
+
+
+
+Exercice 14
+Algorithme Saisir_nombres;
+var
+nombre,somme:entiers;
+
+Debut
+    somme<---0
+  Repeter
+    Afficher"Entrer un nombre";
+    Saisir nombre ;
+ 
+      somme<--somme + nombre;
+   Jusqu'a  somme>=100;
+ 
+Fin
+
+
+Exercice 15
+Algorithme Somme;
+var
+i,somme:entiers;
+
+Debut
+    somme<---0
+  Pour i--->1 à 10 pas de 1 faire
+  somme<--somme+i;
+
+  Fin pour
+  Afficher" La somme "...,somme;
+Fin
+
+
+
+Exercice 16
+Algorithme table_8;
+var
+i:entier;
+
+Debut
+  
+  Pour i--->1 à 10 pas de 1 faire
+    Afficher" "8 * ,"i ,"=" 8*i;
+  Fin pour
+  
+Fin
+
+  
+
+Exercice 16
+Algorithme table_8;
+var
+i:entier;
+
+Debut
+  i<--0
+  Tant que i <= 12 faire
+    Afficher" "8 * ,"i ,"=" 8*i;
+    i <--i+1;
+  Fin tant que
+Fin
+
+
+Exercice 17
+Algorithme Saisir_nombres;
+var
+ i,j:entiers;
+
+Debut
+    i<--1
+    j<--0
+    
+    Afficher" i ,"*",j,"=";
+      i*j;
+   j<--j+1;
+  Jusqu'a j >=12 ;
+    i<---i+1;
+   Jusqu'a i >=10 ;
+ 
+Fin
+
+
+
+Exercice 18
+Algorithme Saisir_nombres;
+var
+ n,i,f:entiers;
+
+Debut
+    i<--1
+    j<--0
+    
+    Afficher" i ,"*",j,"=";
+      i*j;
+   j<--j+1;
+  Jusqu'a j >=12 ;
+    i<---i+1;
+   Jusqu'a i >=10 ;
+ 
+Fin
+
+
+Exercice 14
+Algorithme Remplir_tableau;
+var
+tab(1:8):Tableau de type entiers;
+i, valeur:entiers;
+
+Debut
+     Pour i--->1 à  à pas 1 faire
+     Afficher "Veuillez entrer un nombre;
+     Saisir nombre ;
+ 
+       Trouver<-- 0 et i <--1
+     Pour i<--1 à 10 à pas 1 faire:
+     Si tab[i] = nombre alors:
+     Position trouver<--i;
+  Fin si
+  Fin pour
+   Si trouver = 0 alors
+     Afficher "Le nombre est introuvable;
+   Sinon
+  Pour i--> position trouver de O à pas de 1 faire 
+  tab[i]<--tab[i] +1
+  Fin pour
+
+  Tab[10]<--0
+  Fin pour
+Fin
+
+
+
+
+
+
+
+
+
+    
